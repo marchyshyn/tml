@@ -1,0 +1,186 @@
+section {
+	position: relative;
+	z-index: 1;
+}
+
+.advantages {
+	background: #fff;
+	position: relative;
+	top: -80px;
+	box-shadow: 0px 5px 0px 0px rgba(232, 232, 232, 0.5);
+	height: 162px;
+	z-index: 1;
+}
+
+@media (max-width: 1100px){
+	.advantages {
+		top: -50px;
+	}
+}
+
+.advantages ul {
+	height: 100%;
+}
+
+.advantages li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 100%;
+	display: table;
+}
+
+.advantages a {
+	color: #555;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.advantages p {
+	height: 35px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 1%;
+}
+
+.item-icon:before  {
+	content: '';
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.icon1:before {
+	background: url(../assets/sprite.png) no-repeat 5px -104px;
+}
+
+.icon2:before {
+	background: url(../assets/sprite.png) no-repeat -60px -104px;
+}
+
+.icon3:before {
+	background: url(../assets/sprite.png) no-repeat -128px -104px;
+}
+
+.icon4:before {
+	background: url(../assets/sprite.png) no-repeat -130px -25px;
+}
+
+article {
+	font-size: 18px;
+	color: #555;
+}
+
+article h3 {
+	font-size: 22px;
+	color: #333;
+}
+
+.product {
+	margin: 40px 0 20px 0;
+}
+
+.product-item{
+	display: inline-block;
+	width: 220px;
+	height: 355px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.product ul {
+	text-align: justify;
+}
+
+.product ul:after {
+	width: 100%; 
+	display: inline-block; 
+	content: ""; 
+	visibility: hidden;
+}
+
+.p-wrapper {
+	height: 60px;
+	width: 100%;
+	display: table;
+	margin-top: 10px;
+	text-decoration: underline;
+	font-family:'ProximaNovaBold';
+}
+
+.p-wrapper p {
+	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+article a {
+	color: #008dd2;
+	text-decoration: underline;
+}
+
+.product-info {
+	position: absolute;
+	top: -100%;
+	height: 100%;
+	background: #008dd2;
+	transition: .5s;
+	-webkit-transition: .5s;
+	color: #fff;
+}
+
+.product-info p {
+	text-decoration: underline;
+	font-family:'ProximaNovaBold';
+}
+
+.product-info a {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 20px;
+	left: 10%;
+	width: 69%;
+	font-size: 14px;
+}
+
+.product li:hover .product-info {
+	top: 0;
+	transition: .5s;
+	-webkit-transition: .5s;
+}
+
+.product-advantages {
+	margin-left: 50px;
+	list-style-type: none;
+	font-size: 16px;
+}
+
+.product-advantages li {
+	margin: 20px 0;
+	position: relative;
+}
+
+.product-advantages li:before {
+	content: '';
+	display: inline-block;
+	background: url(../assets/sprite.png) no-repeat -112px 0px;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: -30px;
+}
+
+.product-info p {
+	color: #fff;
+}

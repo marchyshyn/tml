@@ -1,0 +1,64 @@
+.footer-logo {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.footer-nav {
+	display: inline-block;
+	font-family:'ProximaNovaBold';
+	font-size: 13px;
+	width: 700px;
+	float: right;
+	margin-top: 50px;
+}
+
+.footer-nav li {
+	display: inline-block;
+	width: 25%;
+	margin-left: -4px; 
+	vertical-align: top;
+}
+
+.footer-nav a {
+	text-transform: uppercase;
+	color: #555;
+}
+
+.footer-top {
+	background: #e5e5e5;
+	height: 140px;
+	margin-top: 100px;
+}
+
+.footeb-bottom {
+	background: #333333;
+	text-transform: uppercase;
+}
+
+.copyright {
+	margin-left: 60px;
+}
+
+.copyright, .development {
+	display: inline-block;
+	color: #888888;
+	font-size: 11px;
+}
+
+.development {
+	margin-left: 20px;
+}
+
+.development:before {
+	content: '';
+	display: inline-block;
+	background: url(../assets/sprite.png)no-repeat -75px 0px;
+	width: 20px;
+	height: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.bottom-wrapper {
+	text-align: justify;
+}
